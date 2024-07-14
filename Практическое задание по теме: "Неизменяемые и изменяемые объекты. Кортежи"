@@ -1,0 +1,8 @@
+'homework5.py'
+
+#Потому что кортеж является неизменяемым типом данных и служит менее затратным и более качественым хранением данных
+immutable_var = (1,2,'aple',True)
+print(immutable_var)
+mutable_list = [1,2,'mouse','cat',False]
+mutable_list[2] = 'Dog'
+print(mutable_list)
